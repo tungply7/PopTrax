@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46080D771CF419200041124A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46080D761CF419200041124A /* Constants.swift */; };
+		46080D791CF41A3E0041124A /* MusicVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46080D781CF41A3E0041124A /* MusicVideo.swift */; };
+		46208B7C1CF01FC600CA7385 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46208B7B1CF01FC600CA7385 /* AppDelegate.swift */; };
+		46208B7E1CF01FC600CA7385 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46208B7D1CF01FC600CA7385 /* ViewController.swift */; };
+		46208B811CF01FC600CA7385 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46208B7F1CF01FC600CA7385 /* Main.storyboard */; };
+		46208B831CF01FC600CA7385 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46208B821CF01FC600CA7385 /* Assets.xcassets */; };
+		46208B861CF01FC600CA7385 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46208B841CF01FC600CA7385 /* LaunchScreen.storyboard */; };
+		46208B911CF01FC600CA7385 /* PopTraxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46208B901CF01FC600CA7385 /* PopTraxTests.swift */; };
+		46208B9C1CF01FC600CA7385 /* PopTraxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46208B9B1CF01FC600CA7385 /* PopTraxUITests.swift */; };
+		464CCD191CF593940079B1B8 /* MusicVideoTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464CCD181CF593940079B1B8 /* MusicVideoTVC.swift */; };
+		4664B5C81CF8DA21000AAC1A /* YBAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4664B5C71CF8DA21000AAC1A /* YBAlertController.swift */; };
+		46865CB41CF7BDCF004E2259 /* MusicVideoDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46865CB31CF7BDCF004E2259 /* MusicVideoDetailVC.swift */; };
+		46865CB61CF832D7004E2259 /* SettingsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46865CB51CF832D7004E2259 /* SettingsTVC.swift */; };
+		468AB3821CF5641A0050AE99 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 468AB3811CF5641A0050AE99 /* Reachability.m */; };
+		46D85C231CF2D574004A24CE /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D85C221CF2D574004A24CE /* APIManager.swift */; };
+		46E41A9F1CF6C47900255BDA /* MusicVideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E41A9E1CF6C47900255BDA /* MusicVideoTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46208B8D1CF01FC600CA7385 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46208B701CF01FC500CA7385 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46208B771CF01FC600CA7385;
+			remoteInfo = PopTrax;
+		};
+		46208B981CF01FC600CA7385 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46208B701CF01FC500CA7385 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46208B771CF01FC600CA7385;
+			remoteInfo = PopTrax;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		46080D761CF419200041124A /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		46080D781CF41A3E0041124A /* MusicVideo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicVideo.swift; sourceTree = "<group>"; };
+		46208B781CF01FC600CA7385 /* PopTrax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopTrax.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46208B7B1CF01FC600CA7385 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		46208B7D1CF01FC600CA7385 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		46208B801CF01FC600CA7385 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		46208B821CF01FC600CA7385 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46208B851CF01FC600CA7385 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		46208B871CF01FC600CA7385 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46208B8C1CF01FC600CA7385 /* PopTraxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopTraxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46208B901CF01FC600CA7385 /* PopTraxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopTraxTests.swift; sourceTree = "<group>"; };
+		46208B921CF01FC600CA7385 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46208B971CF01FC600CA7385 /* PopTraxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopTraxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46208B9B1CF01FC600CA7385 /* PopTraxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopTraxUITests.swift; sourceTree = "<group>"; };
+		46208B9D1CF01FC600CA7385 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		464CCD181CF593940079B1B8 /* MusicVideoTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicVideoTVC.swift; sourceTree = "<group>"; };
+		4664B5C71CF8DA21000AAC1A /* YBAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YBAlertController.swift; sourceTree = "<group>"; };
+		46865CB31CF7BDCF004E2259 /* MusicVideoDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicVideoDetailVC.swift; sourceTree = "<group>"; };
+		46865CB51CF832D7004E2259 /* SettingsTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTVC.swift; sourceTree = "<group>"; };
+		468AB37F1CF5641A0050AE99 /* PopTrax-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PopTrax-Bridging-Header.h"; sourceTree = "<group>"; };
+		468AB3801CF5641A0050AE99 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		468AB3811CF5641A0050AE99 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		46D85C221CF2D574004A24CE /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		46E41A9E1CF6C47900255BDA /* MusicVideoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicVideoTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46208B751CF01FC600CA7385 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46208B891CF01FC600CA7385 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46208B941CF01FC600CA7385 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46080D751CF418FD0041124A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				46080D761CF419200041124A /* Constants.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		46208B6F1CF01FC500CA7385 = {
+			isa = PBXGroup;
+			children = (
+				46208B7A1CF01FC600CA7385 /* PopTrax */,
+				46208B8F1CF01FC600CA7385 /* PopTraxTests */,
+				46208B9A1CF01FC600CA7385 /* PopTraxUITests */,
+				46208B791CF01FC600CA7385 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46208B791CF01FC600CA7385 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46208B781CF01FC600CA7385 /* PopTrax.app */,
+				46208B8C1CF01FC600CA7385 /* PopTraxTests.xctest */,
+				46208B971CF01FC600CA7385 /* PopTraxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46208B7A1CF01FC600CA7385 /* PopTrax */ = {
+			isa = PBXGroup;
+			children = (
+				468AB37E1CF5639B0050AE99 /* Obj-c */,
+				46080D751CF418FD0041124A /* Utils */,
+				46D85C211CF2D087004A24CE /* Supporting Files */,
+				46D85C1E1CF2D04A004A24CE /* Model */,
+				46D85C1F1CF2D059004A24CE /* Controller */,
+				46D85C201CF2D06D004A24CE /* View */,
+			);
+			path = PopTrax;
+			sourceTree = "<group>";
+		};
+		46208B8F1CF01FC600CA7385 /* PopTraxTests */ = {
+			isa = PBXGroup;
+			children = (
+				46208B901CF01FC600CA7385 /* PopTraxTests.swift */,
+				46208B921CF01FC600CA7385 /* Info.plist */,
+			);
+			path = PopTraxTests;
+			sourceTree = "<group>";
+		};
+		46208B9A1CF01FC600CA7385 /* PopTraxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				46208B9B1CF01FC600CA7385 /* PopTraxUITests.swift */,
+				46208B9D1CF01FC600CA7385 /* Info.plist */,
+			);
+			path = PopTraxUITests;
+			sourceTree = "<group>";
+		};
+		468AB37E1CF5639B0050AE99 /* Obj-c */ = {
+			isa = PBXGroup;
+			children = (
+				468AB3801CF5641A0050AE99 /* Reachability.h */,
+				468AB3811CF5641A0050AE99 /* Reachability.m */,
+				468AB37F1CF5641A0050AE99 /* PopTrax-Bridging-Header.h */,
+			);
+			name = "Obj-c";
+			sourceTree = "<group>";
+		};
+		46D85C1E1CF2D04A004A24CE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				46D85C221CF2D574004A24CE /* APIManager.swift */,
+				46080D781CF41A3E0041124A /* MusicVideo.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		46D85C1F1CF2D059004A24CE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4664B5C71CF8DA21000AAC1A /* YBAlertController.swift */,
+				46E41A9E1CF6C47900255BDA /* MusicVideoTableViewCell.swift */,
+				46208B7D1CF01FC600CA7385 /* ViewController.swift */,
+				464CCD181CF593940079B1B8 /* MusicVideoTVC.swift */,
+				46865CB31CF7BDCF004E2259 /* MusicVideoDetailVC.swift */,
+				46865CB51CF832D7004E2259 /* SettingsTVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		46D85C201CF2D06D004A24CE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				46208B841CF01FC600CA7385 /* LaunchScreen.storyboard */,
+				46208B7F1CF01FC600CA7385 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		46D85C211CF2D087004A24CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				46208B821CF01FC600CA7385 /* Assets.xcassets */,
+				46208B871CF01FC600CA7385 /* Info.plist */,
+				46208B7B1CF01FC600CA7385 /* AppDelegate.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46208B771CF01FC600CA7385 /* PopTrax */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46208BA01CF01FC600CA7385 /* Build configuration list for PBXNativeTarget "PopTrax" */;
+			buildPhases = (
+				46208B741CF01FC600CA7385 /* Sources */,
+				46208B751CF01FC600CA7385 /* Frameworks */,
+				46208B761CF01FC600CA7385 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PopTrax;
+			productName = PopTrax;
+			productReference = 46208B781CF01FC600CA7385 /* PopTrax.app */;
+			productType = "com.apple.product-type.application";
+		};
+		46208B8B1CF01FC600CA7385 /* PopTraxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46208BA31CF01FC600CA7385 /* Build configuration list for PBXNativeTarget "PopTraxTests" */;
+			buildPhases = (
+				46208B881CF01FC600CA7385 /* Sources */,
+				46208B891CF01FC600CA7385 /* Frameworks */,
+				46208B8A1CF01FC600CA7385 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46208B8E1CF01FC600CA7385 /* PBXTargetDependency */,
+			);
+			name = PopTraxTests;
+			productName = PopTraxTests;
+			productReference = 46208B8C1CF01FC600CA7385 /* PopTraxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		46208B961CF01FC600CA7385 /* PopTraxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46208BA61CF01FC600CA7385 /* Build configuration list for PBXNativeTarget "PopTraxUITests" */;
+			buildPhases = (
+				46208B931CF01FC600CA7385 /* Sources */,
+				46208B941CF01FC600CA7385 /* Frameworks */,
+				46208B951CF01FC600CA7385 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46208B991CF01FC600CA7385 /* PBXTargetDependency */,
+			);
+			name = PopTraxUITests;
+			productName = PopTraxUITests;
+			productReference = 46208B971CF01FC600CA7385 /* PopTraxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46208B701CF01FC500CA7385 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Tung Ly";
+				TargetAttributes = {
+					46208B771CF01FC600CA7385 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 66728D7G65;
+					};
+					46208B8B1CF01FC600CA7385 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 46208B771CF01FC600CA7385;
+					};
+					46208B961CF01FC600CA7385 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 46208B771CF01FC600CA7385;
+					};
+				};
+			};
+			buildConfigurationList = 46208B731CF01FC500CA7385 /* Build configuration list for PBXProject "PopTrax" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46208B6F1CF01FC500CA7385;
+			productRefGroup = 46208B791CF01FC600CA7385 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46208B771CF01FC600CA7385 /* PopTrax */,
+				46208B8B1CF01FC600CA7385 /* PopTraxTests */,
+				46208B961CF01FC600CA7385 /* PopTraxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46208B761CF01FC600CA7385 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46208B861CF01FC600CA7385 /* LaunchScreen.storyboard in Resources */,
+				46208B831CF01FC600CA7385 /* Assets.xcassets in Resources */,
+				46208B811CF01FC600CA7385 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46208B8A1CF01FC600CA7385 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46208B951CF01FC600CA7385 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46208B741CF01FC600CA7385 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46865CB61CF832D7004E2259 /* SettingsTVC.swift in Sources */,
+				46D85C231CF2D574004A24CE /* APIManager.swift in Sources */,
+				46865CB41CF7BDCF004E2259 /* MusicVideoDetailVC.swift in Sources */,
+				46208B7E1CF01FC600CA7385 /* ViewController.swift in Sources */,
+				46080D791CF41A3E0041124A /* MusicVideo.swift in Sources */,
+				46E41A9F1CF6C47900255BDA /* MusicVideoTableViewCell.swift in Sources */,
+				46208B7C1CF01FC600CA7385 /* AppDelegate.swift in Sources */,
+				468AB3821CF5641A0050AE99 /* Reachability.m in Sources */,
+				4664B5C81CF8DA21000AAC1A /* YBAlertController.swift in Sources */,
+				46080D771CF419200041124A /* Constants.swift in Sources */,
+				464CCD191CF593940079B1B8 /* MusicVideoTVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46208B881CF01FC600CA7385 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46208B911CF01FC600CA7385 /* PopTraxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46208B931CF01FC600CA7385 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46208B9C1CF01FC600CA7385 /* PopTraxUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46208B8E1CF01FC600CA7385 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46208B771CF01FC600CA7385 /* PopTrax */;
+			targetProxy = 46208B8D1CF01FC600CA7385 /* PBXContainerItemProxy */;
+		};
+		46208B991CF01FC600CA7385 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46208B771CF01FC600CA7385 /* PopTrax */;
+			targetProxy = 46208B981CF01FC600CA7385 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		46208B7F1CF01FC600CA7385 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46208B801CF01FC600CA7385 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		46208B841CF01FC600CA7385 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46208B851CF01FC600CA7385 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		46208B9E1CF01FC600CA7385 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		46208B9F1CF01FC600CA7385 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46208BA11CF01FC600CA7385 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 66728D7G65;
+				GCC_GENERATE_TEST_COVERAGE_FILES = NO;
+				INFOPLIST_FILE = PopTrax/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TungLy.PopTrax;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PopTrax/PopTrax-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		46208BA21CF01FC600CA7385 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 66728D7G65;
+				GCC_GENERATE_TEST_COVERAGE_FILES = NO;
+				INFOPLIST_FILE = PopTrax/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TungLy.PopTrax;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PopTrax/PopTrax-Bridging-Header.h";
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		46208BA41CF01FC600CA7385 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PopTraxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TungLy.PopTraxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PopTrax.app/PopTrax";
+			};
+			name = Debug;
+		};
+		46208BA51CF01FC600CA7385 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PopTraxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TungLy.PopTraxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PopTrax.app/PopTrax";
+			};
+			name = Release;
+		};
+		46208BA71CF01FC600CA7385 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PopTraxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TungLy.PopTraxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PopTrax;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		46208BA81CF01FC600CA7385 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PopTraxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TungLy.PopTraxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PopTrax;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46208B731CF01FC500CA7385 /* Build configuration list for PBXProject "PopTrax" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46208B9E1CF01FC600CA7385 /* Debug */,
+				46208B9F1CF01FC600CA7385 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46208BA01CF01FC600CA7385 /* Build configuration list for PBXNativeTarget "PopTrax" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46208BA11CF01FC600CA7385 /* Debug */,
+				46208BA21CF01FC600CA7385 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46208BA31CF01FC600CA7385 /* Build configuration list for PBXNativeTarget "PopTraxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46208BA41CF01FC600CA7385 /* Debug */,
+				46208BA51CF01FC600CA7385 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46208BA61CF01FC600CA7385 /* Build configuration list for PBXNativeTarget "PopTraxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46208BA71CF01FC600CA7385 /* Debug */,
+				46208BA81CF01FC600CA7385 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46208B701CF01FC500CA7385 /* Project object */;
+}
