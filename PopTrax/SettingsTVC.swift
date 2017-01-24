@@ -80,7 +80,7 @@ class SettingsTVC: UITableViewController, MFMailComposeViewControllerDelegate {
     }
     
     func mailComposeController(controller: MFMailComposeViewController, didFinishWithResult result: MFMailComposeResult, error: NSError?) {
-        
+        /*
         switch result.rawValue {
         case MFMailComposeResultCancelled.rawValue:
             print("Mail cancelled")
@@ -93,7 +93,7 @@ class SettingsTVC: UITableViewController, MFMailComposeViewControllerDelegate {
         default:
             print("Unknown Issue")
             
-        }
+        }*/
         self.dismissViewControllerAnimated(true, completion: nil)
     }
     

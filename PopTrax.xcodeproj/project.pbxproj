@@ -14,8 +14,6 @@
 		46208B811CF01FC600CA7385 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46208B7F1CF01FC600CA7385 /* Main.storyboard */; };
 		46208B831CF01FC600CA7385 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46208B821CF01FC600CA7385 /* Assets.xcassets */; };
 		46208B861CF01FC600CA7385 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46208B841CF01FC600CA7385 /* LaunchScreen.storyboard */; };
-		46208B911CF01FC600CA7385 /* PopTraxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46208B901CF01FC600CA7385 /* PopTraxTests.swift */; };
-		46208B9C1CF01FC600CA7385 /* PopTraxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46208B9B1CF01FC600CA7385 /* PopTraxUITests.swift */; };
 		464CCD191CF593940079B1B8 /* MusicVideoTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464CCD181CF593940079B1B8 /* MusicVideoTVC.swift */; };
 		4664B5C81CF8DA21000AAC1A /* YBAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4664B5C71CF8DA21000AAC1A /* YBAlertController.swift */; };
 		46865CB41CF7BDCF004E2259 /* MusicVideoDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46865CB31CF7BDCF004E2259 /* MusicVideoDetailVC.swift */; };
@@ -53,11 +51,7 @@
 		46208B851CF01FC600CA7385 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		46208B871CF01FC600CA7385 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46208B8C1CF01FC600CA7385 /* PopTraxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopTraxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		46208B901CF01FC600CA7385 /* PopTraxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopTraxTests.swift; sourceTree = "<group>"; };
-		46208B921CF01FC600CA7385 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46208B971CF01FC600CA7385 /* PopTraxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopTraxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		46208B9B1CF01FC600CA7385 /* PopTraxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopTraxUITests.swift; sourceTree = "<group>"; };
-		46208B9D1CF01FC600CA7385 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		464CCD181CF593940079B1B8 /* MusicVideoTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicVideoTVC.swift; sourceTree = "<group>"; };
 		4664B5C71CF8DA21000AAC1A /* YBAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YBAlertController.swift; sourceTree = "<group>"; };
 		46865CB31CF7BDCF004E2259 /* MusicVideoDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicVideoDetailVC.swift; sourceTree = "<group>"; };
@@ -106,8 +100,6 @@
 			isa = PBXGroup;
 			children = (
 				46208B7A1CF01FC600CA7385 /* PopTrax */,
-				46208B8F1CF01FC600CA7385 /* PopTraxTests */,
-				46208B9A1CF01FC600CA7385 /* PopTraxUITests */,
 				46208B791CF01FC600CA7385 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -133,24 +125,6 @@
 				46D85C201CF2D06D004A24CE /* View */,
 			);
 			path = PopTrax;
-			sourceTree = "<group>";
-		};
-		46208B8F1CF01FC600CA7385 /* PopTraxTests */ = {
-			isa = PBXGroup;
-			children = (
-				46208B901CF01FC600CA7385 /* PopTraxTests.swift */,
-				46208B921CF01FC600CA7385 /* Info.plist */,
-			);
-			path = PopTraxTests;
-			sourceTree = "<group>";
-		};
-		46208B9A1CF01FC600CA7385 /* PopTraxUITests */ = {
-			isa = PBXGroup;
-			children = (
-				46208B9B1CF01FC600CA7385 /* PopTraxUITests.swift */,
-				46208B9D1CF01FC600CA7385 /* Info.plist */,
-			);
-			path = PopTraxUITests;
 			sourceTree = "<group>";
 		};
 		468AB37E1CF5639B0050AE99 /* Obj-c */ = {
@@ -354,7 +328,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46208B911CF01FC600CA7385 /* PopTraxTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,7 +335,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46208B9C1CF01FC600CA7385 /* PopTraxUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -529,6 +501,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TungLy.PopTraxTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PopTrax.app/PopTrax";
 			};
 			name = Debug;
@@ -541,6 +514,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TungLy.PopTraxTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PopTrax.app/PopTrax";
 			};
 			name = Release;
@@ -552,6 +526,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TungLy.PopTraxUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_TARGET_NAME = PopTrax;
 				USES_XCTRUNNER = YES;
 			};
@@ -564,6 +539,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TungLy.PopTraxUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_TARGET_NAME = PopTrax;
 				USES_XCTRUNNER = YES;
 			};
